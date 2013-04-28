@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">firstandroid</string>
+    <string name="edit_message">Enter a message</string>
+    <string name="button_send">Send</string>
+    <string name="menu_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="hello">Hello!</string>
+    <string name="title_activity_display_message">DisplayMessageActivity</string>
+    <string name="title">使用ListView顯示明細清單</string>
+    <string name="strEditButton">修改</string>
+    <string name="strMenu1">Delete</string>
+    <string name="strAddButton">新增</string>
+    <string name="strDeleteButton">刪除</string>
+    
+    <string name="input_message">Enter a message</string>
+</resources>

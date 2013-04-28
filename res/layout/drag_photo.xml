@@ -1,0 +1,27 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/parent_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <GridView
+        android:id="@+id/grid_view"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:horizontalSpacing="10dip"
+        android:numColumns="4"
+        android:verticalSpacing="10dip" />
+
+    <ImageView
+        android:id="@+id/trash_can"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="Delete"
+        android:padding="40dip"
+        android:src="@drawable/trash_can"
+        android:visibility="gone" >
+    </ImageView>
+
+</RelativeLayout>
